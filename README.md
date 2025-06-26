@@ -8,9 +8,9 @@ A professional NLP pipeline for classifying BBC news articles into five categori
 
 ```mermaid
 graph TD;
-    A[Raw Text Data] --> B[Preprocessing (cleaning, tokenization, lemmatization, typo correction)];
+    A[Raw Text Data] --> B[Preprocessing: cleaning, tokenization, lemmatization, typo correction];
     B --> C[TF-IDF Feature Extraction];
-    C --> D[Model Training (Naive Bayes, Logistic Regression)];
+    C --> D[Model Training: Naive Bayes, Logistic Regression];
     D --> E[Evaluation & Visualization];
     E --> F[Model Persistence];
 ```
