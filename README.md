@@ -86,12 +86,6 @@ NLP_PROJECT_FINAL/
 └── (saved models, etc.)
 ```
 
----
-
-**Tip:**
-Export the PCA and confusion matrix plots from your notebook as PNG files and place them in the project root for the images to display in the README.
-
-
 
 
 
